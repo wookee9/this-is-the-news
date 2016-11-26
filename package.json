@@ -1,7 +1,7 @@
 {
-  "name": "wh-bp-react",
+  "name": "this-is-the-news",
   "version": "1.0.0",
-  "description": "Basic React boilerplate with Sass",
+  "description": "Art project that displays the latest news headlines with a visual and techno music backdrop",
   "main": "webpack.config.js",
   "dependencies": {
     "react": "^15.3.2",
