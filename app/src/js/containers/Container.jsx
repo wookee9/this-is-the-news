@@ -1,6 +1,7 @@
 import React from "react";
 import Component1 from "Component1";
-import Component2 from "Component2";
+import AudioController from "components/AudioController";
+import AudioController from "components/VisualController";
 
 export default class Container extends React.Component {
   constructor() {
@@ -10,11 +11,18 @@ export default class Container extends React.Component {
   render() {
     var result = Date.now();
 
+    let headline = "";
+    let soundtrack = "";
+    let videoLayers = [];
+
+    // pass state down into components
+
     return (
       <div>
         <h1>Container {result}</h1>
         <Component1/>
-        <Component2/>
+        <AudioController/>
+        <VisualController/>
       </div>
     );
   }

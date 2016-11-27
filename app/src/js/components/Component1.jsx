@@ -7,7 +7,7 @@ export default class Component1 extends React.Component {
 
   render() {
     return (
-      <div>Nested Component1</div>
+      <div>Component1</div>
     );
   }
 }

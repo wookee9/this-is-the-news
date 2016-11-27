@@ -1,7 +1,7 @@
 {
   "name": "this-is-the-news",
   "version": "1.0.0",
-  "description": "Art project that displays the latest news headlines with a visual and techno music backdrop",
+  "description": "Art project that displays the latest news headlines set to a video and techno music backdrop",
   "main": "webpack.config.js",
   "dependencies": {
     "react": "^15.3.2",
@@ -40,6 +40,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wookee9/wh-bp-react"
+    "url": "git://github.com/wookee9/this-is-the-news"
   }
 }
