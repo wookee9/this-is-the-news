@@ -64,7 +64,9 @@ module.exports = {
       Stylesheets : 'app/src/css/styles.scss',
       Container : 'app/src/js/containers/Container.jsx',
       Component1 : 'app/src/js/components/Component1.jsx',
-      Component2 : 'app/src/js/components/Component2.jsx'
+      Component2 : 'app/src/js/components/Component2.jsx',
+      components : 'app/src/js/components/',
+      containers : 'app/src/js/containers/'
     }
   },
   output: {
